@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: proyecto-node
+  labels:
+    app: proyecto-node
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: proyecto-node
+  template:
+    metadata:
+      labels:
+        app: proyecto-node
+    spec:
+      containers:
+      - name: servicio-node
+        image: ghcr.io/bootcampdevops2023/proyecto-node:v1.0.1
+        ports:
+        - containerPort: 5000
