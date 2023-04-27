@@ -5,3 +5,4 @@ namespace: proyecto-node
 resources:
 - ./namespace.yml
 - ./deployment.yml
+- ./service.yml
