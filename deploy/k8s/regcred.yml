@@ -1,0 +1,9 @@
+kind: Secret
+type: kubernetes.io/dockerconfigjson
+apiVersion: v1
+metadata:
+  name: regcred
+  labels:
+    app: proyecto-node
+data:
+  .dockerconfigjson: eyJhdXRocyI6eyJnaGNyLmlvIjp7ImF1dGgiOiJhbU55WlhOd2IyWTZaMmh3WDIxYWRsa3dlbVZ5TkVoRVVUVm1OV2RYU2xNeFZFRlpWMUZ0YTFsTFNEQnpRMEZOVVE9PSJ9fX0=
