@@ -15,3 +15,9 @@ If Auto DevOps is not already enabled for this project, you can [turn it on](htt
 This template has a fully-automated dev setup for [Gitpod](https://docs.gitlab.com/ee/integration/gitpod.html).
 
 If you open this project in Gitpod, you'll get all Node dependencies pre-installed and Express will open a web preview.
+
+
+## ENVVARS
+
+* PORT: define el puerto de exposición
+* VERSION_NAME: define el nombre de la version que aparece en la home
