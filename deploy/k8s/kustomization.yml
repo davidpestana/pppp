@@ -5,6 +5,7 @@ namespace: proyecto-node
 resources:
 - ./namespace.yml
 - ./regcred.yml
+- ./configmap.yml
 - ./deployment.yml
 - ./service.yml
 - ./ingress.yml

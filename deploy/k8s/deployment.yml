@@ -18,9 +18,9 @@ spec:
       - name: regcred
       containers:
       - name: servicio-node
-        image: ghcr.io/bootcampdevops2023/proyecto-node:v1.0.2
-        env:
-          - VERSION_NAME: soyelvalorpordefecto
-          - PORT: 5000
+        image: ghcr.io/bootcampdevops2023/proyecto-node:v1.0.3
+        envFrom:
+        - configMapRef:
+              name: proyecto-node
         ports:
         - containerPort: 5000

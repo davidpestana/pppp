@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: proyecto-node
+data:
+  VERSION_NAME: "valor por defecto"
+  PORT: "5000"
