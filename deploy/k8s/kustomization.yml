@@ -7,3 +7,4 @@ resources:
 - ./regcred.yml
 - ./deployment.yml
 - ./service.yml
+- ./ingress.yml
