@@ -3,5 +3,5 @@ kind: ConfigMap
 metadata:
   name: proyecto-node
 data:
-  VERSION_NAME: "valor por defecto"
+  VERSION_NAME: "valor por defecto CCCCC"
   PORT: "5000"

@@ -1,0 +1,5 @@
+flux bootstrap github \
+  --owner=davidpestana \
+  --repository=bootcamp-flux \
+  --path=clusters/hello-minikube-david \
+  --personal
